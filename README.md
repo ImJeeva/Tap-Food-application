@@ -1,4 +1,4 @@
-![Screenshot 2024-09-25 211531](https://github.com/user-attachments/assets/ddedbb01-4e6c-4e85-9cd5-ae1100d1b9f2)# Tap food  App
+# Tap food  App
 
 ## Introduction
 
