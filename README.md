@@ -82,25 +82,43 @@ combining HTML, CSS, JavaScript for the frontend, and JSP, Java SE, JEE, JDBC, a
 1. **index Page**
   ![Screenshot 2024-09-25 211531](https://github.com/user-attachments/assets/bbb581fc-e4ee-4154-8975-bbeff2ad7257)
 
-3. **Login**
+
  
 2. **Sign Up**
+  ![Screenshot 2024-09-25 211634](https://github.com/user-attachments/assets/92c6560b-4b6f-4287-b3aa-3a0f5252e8de)
+
+3. **Login**
+ ![Screenshot 2024-09-25 211628](https://github.com/user-attachments/assets/19943249-8452-48d6-820f-400aefa6b382)
+
   
+4. **Restaurants list**
+ ![Screenshot 2024-09-25 211704](https://github.com/user-attachments/assets/165e870c-28a7-4328-9d5a-1c68d3b40ab0)
 
+5. **Rating**
+ ![Screenshot 2024-09-25 211750](https://github.com/user-attachments/assets/c2b24bf6-c2a8-486e-a5e6-17ae179f29c4)
 
+6. **Timming**
+  ![Screenshot 2024-09-25 211838](https://github.com/user-attachments/assets/28dbffcb-4af9-4332-95c9-aa3c66a88e50)
 
-  
-5. **Restaurants list**
-4. ![Screenshot 2024-09-25 211704](https://github.com/user-attachments/assets/165e870c-28a7-4328-9d5a-1c68d3b40ab0)
+7. **Search Posts**
+ ![Screenshot 2024-09-25 211939](https://github.com/user-attachments/assets/4c7ba5bf-03bf-4576-8db5-3435f6d114cd)
 
-6. **Rating**
-9. **Timming**
-10. **Search Posts**
-11. **Menu**
-12. **Cart**
-13. **CheckOut**
-14. **Order Confirm**
-15. **Order History**
+8. **Menu**
+ ![Screenshot 2024-09-25 212023](https://github.com/user-attachments/assets/e4550370-7ef4-4382-a638-07733bbd034e)
+
+9. **Cart**
+ ![Screenshot 2024-09-25 212049](https://github.com/user-attachments/assets/b4164364-256e-4118-b436-740622498a96)
+
+10. **CheckOut**
+ ![Screenshot 2024-09-25 212152](https://github.com/user-attachments/assets/0be8c512-fcfe-4870-8f77-a270000d6168)
+
+11. **Order Confirm**
+ ![Screenshot 2024-09-25 212202](https://github.com/user-attachments/assets/c9e60008-a8ae-4033-8da8-00a40f5c620a)
+
+12 **Order History**
+
+ ![Screenshot 2024-09-25 211950](https://github.com/user-attachments/assets/805fd0ce-c42f-4c36-a525-1e9b999cd650)
+
 
 
 
