@@ -1,0 +1,223 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background: rgba(30, 30, 30, 0.9);
+    color: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    padding: 0 1rem; /* Added padding for better spacing */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 87rem;
+    margin: 0 auto;
+    padding: 1rem 0; /* Adjusted for vertical spacing */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: color 0.3s, border-bottom 0.3s, transform 0.3s;
+    padding-bottom: 0.5rem;
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+    border-bottom: 2px solid #ff6b6b;
+    transform: translateY(-2px);
+}
+
+/* Cart Container */
+.cart-container {
+    max-width: 1200px;
+    margin: 120px auto 20px; /* Adjusted for fixed header */
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+/* Center the h1 tag within the cart-container */
+.cart-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text within h1 */
+    width: 100%; /* Ensure h1 takes full width of container */
+}
+
+/* Cart Item Styles */
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    text-align: left; /* Keep item details aligned to the left */
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.cart-item h3 {
+    margin-top: 0;
+    font-size: 1.2rem;
+}
+
+.cart-item p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.cart-item .btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.update-btn {
+    background-color: #4CAF50;
+}
+
+.remove-btn {
+    background-color: #f44336;
+}
+
+.update-form, .remove-form {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.update-form input[type="submit"], .remove-form input[type="submit"] {
+    margin: 0; /* Reset margin for form buttons */
+}
+
+/* Cart Summary */
+.cart-summary {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.cart-summary h2 {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+/* Cart Actions */
+.cart-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adjust space between buttons */
+    margin: 20px 0;
+}
+
+.cart-actions .btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-more-items-btn {
+    background-color: #4CAF50;
+}
+
+.proceed-to-checkout-btn {
+    background-color: #4CAF50;
+}
+
+.cart-actions p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Hover Effects */
+.cart-item .btn:hover {
+    opacity: 0.9;
+}
+
+.cart-actions .btn:hover {
+    opacity: 0.9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .cart-container {
+        padding: 15px;
+    }
+}
+/* Cart Container */
+.cart-container {
+    max-width: 1200px;
+    margin: 120px auto 20px; /* Adjusted for fixed header */
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+}
+
+/* Center the h1 tag within the cart-container */
+.cart-container h1 {
+    font-size: 2rem;
+    color: #333;
+    margin: 0; /* Remove default margin */
+    text-align: center; /* Center text within h1 */
+    width: 100%; /* Ensure h1 takes full width of container */
+}
+
+/* Cart Item Styles */
+.cart-item {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+    text-align: left; /* Keep item details aligned to the left */
+    width: 100%; /* Ensure cart item takes full width of container */
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+/* Other CSS rules remain the same */
